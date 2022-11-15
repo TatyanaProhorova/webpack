@@ -1,0 +1,35 @@
+{
+  "name": "web_pack_1",
+  "version": "1.0.0",
+  "description": "first webpack project",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server .\\dist -c-1 -o ",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TatyanaProhorova/webpack.git"
+  },
+  "keywords": [
+    "netology"
+  ],
+  "author": "Prokhorova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatyanaProhorova/webpack/issues"
+  },
+  "homepage": "https://github.com/TatyanaProhorova/webpack#readme",
+  "devDependencies": {
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  },
+    "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
